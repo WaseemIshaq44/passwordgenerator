@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+    width: 35%;
     text-align: center;
     background-color: rgba(234, 247, 244, 0.842);
     padding: 20px;
@@ -24,7 +25,10 @@ label, input, button {
 }
 
 #wer {
-    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+    border:#2c2b2b;
+    border-radius: 10px;
 }
 
 .password {

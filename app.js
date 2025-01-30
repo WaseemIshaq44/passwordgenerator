@@ -42,6 +42,6 @@ function generatePass() {
             let randomindex = Math.floor(Math.random() * allChar.length);
             pass += allChar[randomindex];
         }
-        wer.innerHTML +=`${1+j}. ${pass} <br/><br/>`;
+        wer.innerHTML +=`${1+j}. ${pass} \n`;
     }
 }
